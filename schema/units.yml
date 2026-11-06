@@ -1,0 +1,15 @@
+# Allowed units in ingredient lines. Countable items (eggs, onions) need no unit.
+- g
+- kg
+- ml
+- l
+- tsp
+- tbsp
+- pinch
+- dash
+- pack
+- can
+- jar
+- cup
+- bunch
+- slice

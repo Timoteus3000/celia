@@ -1,0 +1,14 @@
+# slug: display name
+# The slug goes into a recipe's `category` field. Add new categories here first.
+breakfast: Breakfast
+main: Main Dishes
+soup: Soups & Stews
+salad: Salads
+side: Side Dishes
+bread: Bread & Rolls
+baking: Cakes & Pastries
+dessert: Desserts
+snack: Snacks & Finger Food
+sauce: Sauces, Dips & Dressings
+drink: Drinks
+basics: Basics & Flour Blends

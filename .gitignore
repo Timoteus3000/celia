@@ -1,0 +1,31 @@
+# Obsidian: personal workspace state
+cookbook/.obsidian/workspace*.json
+cookbook/.obsidian/cache
+cookbook/.obsidian/plugins/
+cookbook/.trash/
+
+# Claude Code: personal settings (commands in .claude/commands are shared)
+.claude/settings.local.json
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# App (later)
+node_modules/
+app/dist/
+app/build/
+.env
+.env.*
+!.env.example
+*.log

@@ -1,0 +1,49 @@
+# Used by scripts/validate.py and by AI agents.
+# A line that contains "gluten-free" (or "gluten free") is never flagged.
+
+# Always contain gluten -> error. Matched as substring (so "wheat flour" is caught).
+contains_gluten:
+  - wheat
+  - spelt
+  - rye
+  - barley
+  - green spelt
+  - emmer
+  - einkorn
+  - kamut
+  - khorasan
+  - triticale
+  - durum
+  - semolina
+  - farro
+  - bulgur
+  - couscous
+  - seitan
+  - malt
+  - breadcrumbs
+  - panko
+
+# Substrings that are safe even though they contain a flag word above.
+safe_exceptions:
+  - buckwheat
+
+# Only safe as a labeled gluten-free product -> warning. Matched as whole word.
+needs_gf_label:
+  - flour
+  - oats
+  - oat
+  - oatmeal
+  - soy sauce
+  - broth
+  - stock
+  - bouillon
+  - baking powder
+  - noodles
+  - pasta
+  - spaghetti
+  - orzo
+  - lasagne
+  - teriyaki sauce
+  - worcestershire sauce
+  - crumble
+  - streusel
